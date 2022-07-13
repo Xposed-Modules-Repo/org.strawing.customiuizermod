@@ -2,7 +2,7 @@
 
 [CustoMIUIzerMod Github Repo](https://github.com/liyafe1997/CustoMIUIzerMod/)
 
-[![Download](https://img.shields.io/github/downloads/liyafe1997/CustoMIUIzerMod/total?label=Release%20Download)](https://github.com/liyafe1997/CustoMIUIzerMod/releases)
+[![Download](https://img.shields.io/github/downloads/Xposed-Modules-Repo/org.strawing.customiuizermod/total?label=Release%20Download)](https://github.com/Xposed-Modules-Repo/org.strawing.customiuizermod/releases)
 ## English 
 [简体中文](#%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-simplified-chinese)
 ### Introduction 
