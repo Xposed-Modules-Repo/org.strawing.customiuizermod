@@ -5,11 +5,18 @@
 [![Download](https://img.shields.io/github/downloads/Xposed-Modules-Repo/org.strawing.customiuizermod/total?label=Release%20Download)](https://github.com/Xposed-Modules-Repo/org.strawing.customiuizermod/releases)
 ## English 
 [简体中文](#%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-simplified-chinese)
+
+### For Android 12 and above
+
+This project will not adopt Android 12+ since someone is doing that. If you are using Android 12+ based MIUI you can check: https://github.com/MonwF/customiuizer
+
+This project will focus on Android 11 based MIUI, especially MIUI12.5 & 13
+
 ### Introduction 
 This project is based on [Mikanoshi's CustoMIUIzer](https://code.highspec.ru/Mikanoshi/CustoMIUIzer), since the original CustoMIUIzer haven't adapted MIUI12.5 & Android 11 yet for a long time, this mod is targeting at adapting higher version of Android and MIUI. 
 
 
-Currently I have no plan to add new features to this mod, only target at make it works on higher version of MIUI and Android. Even Android 12 & MIUI 13 is in the plan, but for this moment I will focus on Android 11 & MIUI 12.5. If you found something doesn't work or unexpeted whatever on A11/A12, MIUI12.5/13, you are welcome to submit issues, but I will deal with problems of Android12/MIUI13 later. (Theoretically, the compatibility of mods is mainly related to the Android version and less related to the MIUI version, so most of mods should work without workaround for MIUI13 with Android 11 and below.)
+Currently I have no plan to add new features to this mod, only target at make it works on Android 11 based MIUI 12.5/13. If you found something doesn't work or unexpeted whatever on A11, MIUI12.5/13, you are welcome to submit issues. (Theoretically, the compatibility of mods is mainly related to the Android version and less related to the MIUI version, so most of mods should work without workaround for MIUI13 with Android 11 and below.)
 
 
 Also, if you have solutions for the workaound, you are welcomed to sumbit pull request.  
@@ -37,7 +44,9 @@ Note: Mods are not listed here not means it can't work work with higher version 
 
 10. Mod: Battery bar indicator
 
-11. Backup/Restore Settings: Use Document Provider to load/save backup file instead of hard coded the path. For compatible with Android 11's new storage policy.
+11. Mod: Hide WIFI/VPN icon on statusbar.
+
+12. Backup/Restore Settings: Use Document Provider to load/save backup file instead of hard coded the path. For compatible with Android 11's new storage policy.
 
 ### How to migrate settings from original CustoMIUIzer
 
@@ -61,11 +70,17 @@ For the version number, it start from 1.0, and the last three number is the base
 
 ## 简体中文 (Simplified Chinese)
 
+### Android 12及以上版本
+
+该项目不会去适配Android 12+，因为已经有别的项目在做了，如果你在使用Android12及以上版本可以看看这个项目：https://github.com/MonwF/customiuizer
+
+该项目主要是适配基于Android 11的MIUI12.5/13
+
 ### 简介
 
 该项目基于原版[Mikanoshi's CustoMIUIzer](https://code.highspec.ru/Mikanoshi/CustoMIUIzer)，由于原版好久没有更新适配MIUI12.5 & Android 11，而且从跟他在issue板交流的回复情况看，那位老哥短时间内似乎没有适配高版本MIUI&Android的计划。已经快一年了，实在等不及，于是决定自己动手。
 
-当前我并没有计划添加新功能，主要还是适配更高版本的MIUI和Android。因为我时间有限，尽管计划以后会适配Android 12 & MIUI 13，但目前主要还是先适配Android 11 & MIUI 12.5。如果你发现有Mod在Android11/12，MIUI12.5/13下无法正常工作，欢迎提Issue，但目前我还是会优先处理Android 11 & MIUI 12.5，以后再处理Android 12 & MIUI 13。（理论上，模块兼容性主要与Android版本相关性较大，与MIUI版本相关性较小，所以对于Android11及以下的MIUI13应该不需做额外适配）
+当前我并没有计划添加新功能，主要还是适配Android 11 & MIUI 12.5/13。如果你发现有Mod在Android11，MIUI12.5/13下无法正常工作，欢迎提Issue。（理论上，模块兼容性主要与Android版本相关性较大，与MIUI版本相关性较小，所以对于Android11及以下的MIUI13应该不需做额外适配）
 
 来自酷安的老哥欢迎在酷安@Strawing提问题。之后打算上架酷安，目前正在申请开发者认证，还在审核中。
 
@@ -94,7 +109,9 @@ Note: 不在本列表中的Mods并不意味着在高版本的Android和MIUI中�
 
 10. Mod: 电池条指示器
 
-11. 备份/还原设置：用Document Provider API来读写备份文件，而不是原先的写死路径的方法，目的是兼容Android 11的新存储策略。
+11. Mod: 状态栏 隐藏WIFI/VPN图标
+
+12. 备份/还原设置：用Document Provider API来读写备份文件，而不是原先的写死路径的方法，目的是兼容Android 11的新存储策略。
 
 ### 如何把设置从原版CustoMIUIzer迁移到CustoMIUIzerMod
 
